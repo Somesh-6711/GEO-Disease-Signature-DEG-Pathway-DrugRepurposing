@@ -1,0 +1,27 @@
+# Core numerics + data
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+
+# Stats / differential expression
+statsmodels>=0.14
+
+# Plotting
+matplotlib>=3.8
+
+# GEO download + parsing
+GEOparse>=2.0.4
+
+# Enrichment + Enrichr querying
+gseapy>=1.1.2
+requests>=2.31
+
+# Export tables
+openpyxl>=3.1
+
+# Notebook support
+jupyter>=1.1
+ipykernel>=6.29
+
+# Utilities
+tqdm>=4.66

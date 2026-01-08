@@ -1,0 +1,10 @@
+sample_id	group	title	source_name_ch1	raw_characteristics_ch1	ch1_disease state	ch1_tissue	ch1_specimen
+GSM1479904	control_retina	Retina_1	retina	disease state: control | tissue: retina	control	retina	
+GSM1479905	control_retina	Retina_2	retina	disease state: control | tissue: retina	control	retina	
+GSM1479906	control_retina	Retina_3	retina	disease state: control | tissue: retina	control	retina	
+GSM1479907	active_fvm	Active FVMs_1	FVMs with active NV	disease state: Proliferative diabetic retinopathy (PDR) | tissue: fibrovascular membranes (FVMs) | specimen: active NV	Proliferative diabetic retinopathy (PDR)	fibrovascular membranes (FVMs)	active NV
+GSM1479908	active_fvm	Active FVMs_2	FVMs with active NV	disease state: Proliferative diabetic retinopathy (PDR) | tissue: fibrovascular membranes (FVMs) | specimen: active NV	Proliferative diabetic retinopathy (PDR)	fibrovascular membranes (FVMs)	active NV
+GSM1479909	active_fvm	Active FVMs_3	FVMs with active NV	disease state: Proliferative diabetic retinopathy (PDR) | tissue: fibrovascular membranes (FVMs) | specimen: active NV	Proliferative diabetic retinopathy (PDR)	fibrovascular membranes (FVMs)	active NV
+GSM1479910	inactive_fvm	Inactive FVMs_1	FVMs with no active NV	disease state: Proliferative diabetic retinopathy (PDR) | tissue: fibrovascular membranes (FVMs) | specimen: no active NV	Proliferative diabetic retinopathy (PDR)	fibrovascular membranes (FVMs)	no active NV
+GSM1479911	inactive_fvm	Inactive FVMs_2	FVMs with no active NV	disease state: Proliferative diabetic retinopathy (PDR) | tissue: fibrovascular membranes (FVMs) | specimen: no active NV	Proliferative diabetic retinopathy (PDR)	fibrovascular membranes (FVMs)	no active NV
+GSM1479912	inactive_fvm	Inactive FVMs_3	FVMs with no active NV	disease state: Proliferative diabetic retinopathy (PDR) | tissue: fibrovascular membranes (FVMs) | specimen: no active NV	Proliferative diabetic retinopathy (PDR)	fibrovascular membranes (FVMs)	no active NV
