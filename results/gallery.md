@@ -4,13 +4,13 @@ Auto-generated gallery of QC, DEG, enrichment, and drug repurposing plots.
 
 ## QC
 
-![QC boxplot (raw)](results/figures/qc_boxplot_raw.png)
+![QC boxplot (raw)](figures/qc_boxplot_raw.png)
 
-![QC missingness](results/figures/qc_missingness.png)
+![QC missingness](figures/qc_missingness.png)
 
-![QC PCA](results/figures/qc_pca.png)
+![QC PCA](figures/qc_pca.png)
 
-![QC sample correlation](results/figures/qc_sample_correlation.png)
+![QC sample correlation](figures/qc_sample_correlation.png)
 
 ---
 
@@ -18,19 +18,19 @@ Auto-generated gallery of QC, DEG, enrichment, and drug repurposing plots.
 
 ### Volcano
 
-![Volcano active_fvm_vs_control_retina](results/figures/volcano_active_fvm_vs_control_retina.png)
+![Volcano active_fvm_vs_control_retina](figures/volcano_active_fvm_vs_control_retina.png)
 
 ### Reactome Enrichment
 
-![Reactome UP active_fvm_vs_control_retina](results/figures/enrich_active_fvm_vs_control_retina_Reactome_2022_UP.png)
+![Reactome UP active_fvm_vs_control_retina](figures/enrich_active_fvm_vs_control_retina_Reactome_2022_UP.png)
 
-![Reactome DOWN active_fvm_vs_control_retina](results/figures/enrich_active_fvm_vs_control_retina_Reactome_2022_DOWN.png)
+![Reactome DOWN active_fvm_vs_control_retina](figures/enrich_active_fvm_vs_control_retina_Reactome_2022_DOWN.png)
 
 ### Drug Repurposing
 
-![DSigDB top active_fvm_vs_control_retina](results/figures/drugrep_active_fvm_vs_control_retina_DSigDB_top.png)
+![DSigDB top active_fvm_vs_control_retina](figures/drugrep_active_fvm_vs_control_retina_DSigDB_top.png)
 
-![LINCS down top active_fvm_vs_control_retina](results/figures/drugrep_active_fvm_vs_control_retina_LINCS_L1000_Chem_Pert_down_top.png)
+![LINCS down top active_fvm_vs_control_retina](figures/drugrep_active_fvm_vs_control_retina_LINCS_L1000_Chem_Pert_down_top.png)
 
 ### Top Drug Candidates (tables)
 
@@ -70,19 +70,19 @@ Auto-generated gallery of QC, DEG, enrichment, and drug repurposing plots.
 
 ### Volcano
 
-![Volcano inactive_fvm_vs_control_retina](results/figures/volcano_inactive_fvm_vs_control_retina.png)
+![Volcano inactive_fvm_vs_control_retina](figures/volcano_inactive_fvm_vs_control_retina.png)
 
 ### Reactome Enrichment
 
-![Reactome UP inactive_fvm_vs_control_retina](results/figures/enrich_inactive_fvm_vs_control_retina_Reactome_2022_UP.png)
+![Reactome UP inactive_fvm_vs_control_retina](figures/enrich_inactive_fvm_vs_control_retina_Reactome_2022_UP.png)
 
-![Reactome DOWN inactive_fvm_vs_control_retina](results/figures/enrich_inactive_fvm_vs_control_retina_Reactome_2022_DOWN.png)
+![Reactome DOWN inactive_fvm_vs_control_retina](figures/enrich_inactive_fvm_vs_control_retina_Reactome_2022_DOWN.png)
 
 ### Drug Repurposing
 
-![DSigDB top inactive_fvm_vs_control_retina](results/figures/drugrep_inactive_fvm_vs_control_retina_DSigDB_top.png)
+![DSigDB top inactive_fvm_vs_control_retina](figures/drugrep_inactive_fvm_vs_control_retina_DSigDB_top.png)
 
-![LINCS down top inactive_fvm_vs_control_retina](results/figures/drugrep_inactive_fvm_vs_control_retina_LINCS_L1000_Chem_Pert_down_top.png)
+![LINCS down top inactive_fvm_vs_control_retina](figures/drugrep_inactive_fvm_vs_control_retina_LINCS_L1000_Chem_Pert_down_top.png)
 
 ### Top Drug Candidates (tables)
 

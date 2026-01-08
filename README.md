@@ -23,12 +23,21 @@
    `python src/06_make_report.py`
 
 ---
+### Key Results
+
+Generated disease gene signatures for active/inactive FVM vs control retina, visualized via volcano plots.
+
+Identified biologically relevant pathways via GO/KEGG/Reactome enrichment and produced ranked drug/perturbation matches using DSigDB/LINCS.
+
+> Note: DSigDB includes chemical exposure associations (not all are actionable therapeutics). Candidate lists should be filtered/validated before interpretation.
+
+---
 ### Outputs
 - `results/figures/` → QC plots, volcano plots, enrichment plots, drug candidate plots  
 - `results/tables/` → DEG tables, enrichment tables, drug candidate rankings  
 - `results/summary.md` → final stitched report
 
-**Disclaimer:** Computational hypothesis generation only; not medical advice.
+> **Disclaimer:** Computational hypothesis generation only; not medical advice.
 
 ---
 ## Full Results Gallery
@@ -55,3 +64,31 @@
 
 **Interpretation:**  
 - PCA helps check whether groups separate biologically and whether QC reduces noise/outliers.
+
+---
+
+### Future Work
+
+Direction-aware reversal scoring for LINCS: match disease-UP to drug-DOWN and disease-DOWN to drug-UP for more faithful “reversal” logic.
+
+Batch correction & covariates: add ComBat / regression adjustment if metadata supports it.
+
+Gene-level modeling: move from probe-level DE to gene-level DE with robust aggregation and platform-aware normalization.
+
+Validation: compare signatures with independent retina/FVM datasets, and prioritize candidates via consensus across multiple libraries.
+
+Clinical filtering: remove non-actionable toxicants/exposures from DSigDB and keep clinically relevant compounds.
+
+---
+References
+
+NCBI GEO: GSE60436 (Gene Expression Omnibus)
+
+GEOparse (GEO parsing in Python)
+
+Enrichr (gene set enrichment web resource) + gseapy (Python interface)
+
+DSigDB (drug signatures database)
+
+LINCS L1000 (perturbational gene expression signatures)
+
