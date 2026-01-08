@@ -2,15 +2,26 @@
 
 Auto-generated gallery of QC, DEG, enrichment, and drug repurposing plots.
 
+> Tip: Click any image to open it full-size in GitHub.
+
+---
+
 ## QC
 
-![QC boxplot (raw)](figures/qc_boxplot_raw.png)
+<p align="center">
+  <img src="figures/qc_boxplot_raw.png" width="32%" alt="QC boxplot (raw)">
+  <img src="figures/qc_missingness.png" width="32%" alt="QC missingness">
+  <img src="figures/qc_pca.png" width="32%" alt="QC PCA">
+</p>
 
-![QC missingness](figures/qc_missingness.png)
+<p align="center">
+  <img src="figures/qc_sample_correlation.png" width="55%" alt="QC sample correlation">
+</p>
 
-![QC PCA](figures/qc_pca.png)
-
-![QC sample correlation](figures/qc_sample_correlation.png)
+<p align="center"><em>
+QC overview: boxplot shows distribution across samples, missingness checks feature completeness,
+PCA highlights clustering/outliers, and correlation visualizes sample-to-sample similarity.
+</em></p>
 
 ---
 
@@ -18,19 +29,36 @@ Auto-generated gallery of QC, DEG, enrichment, and drug repurposing plots.
 
 ### Volcano
 
-![Volcano active_fvm_vs_control_retina](figures/volcano_active_fvm_vs_control_retina.png)
+<p align="center">
+  <img src="figures/volcano_active_fvm_vs_control_retina.png" width="60%" alt="Volcano active_fvm_vs_control_retina">
+</p>
+
+<p align="center"><em>
+Volcano plot: genes with large |logFC| and low adjusted p-values represent strong differential expression signals.
+</em></p>
 
 ### Reactome Enrichment
 
-![Reactome UP active_fvm_vs_control_retina](figures/enrich_active_fvm_vs_control_retina_Reactome_2022_UP.png)
+<p align="center">
+  <img src="figures/enrich_active_fvm_vs_control_retina_Reactome_2022_UP.png" width="48%" alt="Reactome UP active_fvm_vs_control_retina">
+  <img src="figures/enrich_active_fvm_vs_control_retina_Reactome_2022_DOWN.png" width="48%" alt="Reactome DOWN active_fvm_vs_control_retina">
+</p>
 
-![Reactome DOWN active_fvm_vs_control_retina](figures/enrich_active_fvm_vs_control_retina_Reactome_2022_DOWN.png)
+<p align="center"><em>
+Reactome enrichment: top pathway terms enriched among upregulated vs downregulated genes in this contrast.
+</em></p>
 
 ### Drug Repurposing
 
-![DSigDB top active_fvm_vs_control_retina](figures/drugrep_active_fvm_vs_control_retina_DSigDB_top.png)
+<p align="center">
+  <img src="figures/drugrep_active_fvm_vs_control_retina_DSigDB_top.png" width="48%" alt="DSigDB top active_fvm_vs_control_retina">
+  <img src="figures/drugrep_active_fvm_vs_control_retina_LINCS_L1000_Chem_Pert_down_top.png" width="48%" alt="LINCS down top active_fvm_vs_control_retina">
+</p>
 
-![LINCS down top active_fvm_vs_control_retina](figures/drugrep_active_fvm_vs_control_retina_LINCS_L1000_Chem_Pert_down_top.png)
+<p align="center"><em>
+Drug repurposing: candidate compounds/perturbations ranked by their ability to reverse disease signatures
+(interpret cautiously: some libraries include exposures/toxicants, not only therapeutics).
+</em></p>
 
 ### Top Drug Candidates (tables)
 
@@ -70,19 +98,23 @@ Auto-generated gallery of QC, DEG, enrichment, and drug repurposing plots.
 
 ### Volcano
 
-![Volcano inactive_fvm_vs_control_retina](figures/volcano_inactive_fvm_vs_control_retina.png)
+<p align="center">
+  <img src="figures/volcano_inactive_fvm_vs_control_retina.png" width="60%" alt="Volcano inactive_fvm_vs_control_retina">
+</p>
 
 ### Reactome Enrichment
 
-![Reactome UP inactive_fvm_vs_control_retina](figures/enrich_inactive_fvm_vs_control_retina_Reactome_2022_UP.png)
-
-![Reactome DOWN inactive_fvm_vs_control_retina](figures/enrich_inactive_fvm_vs_control_retina_Reactome_2022_DOWN.png)
+<p align="center">
+  <img src="figures/enrich_inactive_fvm_vs_control_retina_Reactome_2022_UP.png" width="48%" alt="Reactome UP inactive_fvm_vs_control_retina">
+  <img src="figures/enrich_inactive_fvm_vs_control_retina_Reactome_2022_DOWN.png" width="48%" alt="Reactome DOWN inactive_fvm_vs_control_retina">
+</p>
 
 ### Drug Repurposing
 
-![DSigDB top inactive_fvm_vs_control_retina](figures/drugrep_inactive_fvm_vs_control_retina_DSigDB_top.png)
-
-![LINCS down top inactive_fvm_vs_control_retina](figures/drugrep_inactive_fvm_vs_control_retina_LINCS_L1000_Chem_Pert_down_top.png)
+<p align="center">
+  <img src="figures/drugrep_inactive_fvm_vs_control_retina_DSigDB_top.png" width="48%" alt="DSigDB top inactive_fvm_vs_control_retina">
+  <img src="figures/drugrep_inactive_fvm_vs_control_retina_LINCS_L1000_Chem_Pert_down_top.png" width="48%" alt="LINCS down top inactive_fvm_vs_control_retina">
+</p>
 
 ### Top Drug Candidates (tables)
 
